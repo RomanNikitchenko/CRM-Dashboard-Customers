@@ -1,0 +1,29 @@
+.hello-evano-section {
+  width: 100%;
+  padding: 21px 21px 21px 21px;
+  outline: 1px solid yellow;
+  overflow-y: scroll;
+
+  @media screen and (min-width: 1440px) {
+    padding: 71px 71px 71px 71px;
+  }
+}
+
+.hello-evano-section__title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 51px;
+}
+
+.all-customers {
+  width: 100%;
+  max-width: 968px;
+  border-radius: 41px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.09);
+  overflow-x: scroll;
+}

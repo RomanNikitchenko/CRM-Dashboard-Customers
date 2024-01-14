@@ -1,0 +1,54 @@
+/* placeholders */
+%body {
+  color: $primary-text-color;
+  background-color: $bg-color-white;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  @extend %body;
+}
+
+body.mobile-menu-open {
+  overflow: hidden;
+}
+
+%img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+img {
+  @extend %img;
+}
+
+%tag {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  @extend %tag;
+}
+
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.list {
+  @extend %list;
+}
+
+%button {
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  margin: 0;
+}
+button {
+  @extend %button;
+}
