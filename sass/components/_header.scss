@@ -1,6 +1,10 @@
 .header {
-  overflow-y: scroll;
-  outline: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
   background: #fff;
   box-shadow: 0px 10px 60px 0px rgba(226, 236, 249, 0.5);
   padding-left: 12px;
@@ -8,12 +12,28 @@
 
   width: 100%;
   max-width: 60px;
+  border-bottom-right-radius: 30px;
+
+  @media screen and (min-width: 450px) {
+    position: static;
+    border-radius: 0;
+  }
 
   @media screen and (min-width: 1440px) {
     max-width: 306px;
     padding-top: 37px;
     padding-left: 28px;
   }
+}
+
+// .header__container {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.hello-evano-section__container {
+  max-width: 968px;
+  margin: auto;
 }
 
 .header__logo,
@@ -72,6 +92,7 @@
 
   @media screen and (min-width: 1440px) {
     display: block;
+    margin-bottom: 30px;
   }
 }
 
@@ -170,4 +191,51 @@
   padding-top: 12px;
   padding-left: 12px;
   padding-bottom: 12px;
+}
+
+.contact-block {
+  display: none;
+}
+
+.contact-block,
+.contact-block-menu {
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 76px;
+
+  .contact-photo {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+  }
+
+  .name {
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+  }
+
+  .position {
+    color: #757575;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+.contact-block-menu {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

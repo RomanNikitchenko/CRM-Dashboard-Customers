@@ -53,5 +53,17 @@
 <path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M12 24l8-8-8-8"></path>
 </symbol>
 
+<symbol id="icon-search" viewBox="0 0 32 32">
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M14.667 25.333c5.891 0 10.667-4.776 10.667-10.667s-4.776-10.667-10.667-10.667c-5.891 0-10.667 4.776-10.667 10.667s4.776 10.667 10.667 10.667z"></path>
+<path fill="none"  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M28 28l-5.8-5.8"></path>
+</symbol>
+
+<symbol id="icon-right" viewBox="0 0 23 32">
+<path d="M1.573 4.315h7.899l12.617 12.453-12.617 12.453h-7.899l12.672-12.453-12.672-12.453z"></path>
+</symbol>
+<symbol id="icon-left" viewBox="0 0 23 32">
+<path d="M13.422 29.221l-12.617-12.453 12.617-12.453h7.899l-12.672 12.453 12.672 12.453h-7.899z"></path>
+</symbol>
+
 </defs>
 </svg>

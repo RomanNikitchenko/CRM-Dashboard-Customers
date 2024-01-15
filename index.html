@@ -132,6 +132,16 @@
                 </ul>
             </nav>
         </div>
+
+        <div class="contact-block sticky">
+            <div class="contact-photo">
+                <img src="./images/Evano-Project-Manager.png" alt="Evano Project Manager">
+            </div>
+            <div class="contact-details">
+                <p class="name">Evano</p>
+                <p class="position">Project Manager</p>
+            </div>
+        </div>
     </header>
 
     <!-- mobile menu -->
@@ -249,6 +259,16 @@
                             </li>
                         </ul>
                     </nav>
+
+                    <div class="contact-block-menu">
+                        <div class="contact-photo">
+                            <img src="./images/Evano-Project-Manager.png" alt="Evano Project Manager">
+                        </div>
+                        <div class="contact-details">
+                            <p class="name">Evano</p>
+                            <p class="position">Project Manager</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,9 +282,9 @@
             </h1>
 
             <div class="all-customers">
-                <div class="all-customers_flax-wrapper">
+                <div class="all-customers__flax-wrapper">
 
-                    <div class="all-customers_info">
+                    <div class="all-customers__info">
                         <h3>All Customers</h3>
                         <p>Active Members</p>
                     </div>
@@ -272,9 +292,9 @@
                     <div class="all-customers__field">
                         <label class="all-customers__label" for="text"></label>
                         <input class="all-customers__input" type="text" name="text" id="text" placeholder="Search">
-                        <!-- <svg class="all-customers__icon" width="18" height="18">
-                                <use href="./images/icons.svg#person-black"></use>
-                            </svg> -->
+                        <svg class="all-customers__icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-search"></use>
+                        </svg>
                     </div>
                 </div>
 
@@ -297,7 +317,9 @@
                             <td>(225) 555-0118</td>
                             <td>jane@microsoft.com</td>
                             <td>United States</td>
-                            <td>Active</td>
+                            <td class="Active">
+                                <p>Active</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Floyd Miles</td>
@@ -305,7 +327,9 @@
                             <td>(205) 555-0100</td>
                             <td>floyd@yahoo.com</td>
                             <td>Kiribati</td>
-                            <td>Inactive</td>
+                            <td class="Inactive">
+                                <p>Inactive</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Jane Cooper</td>
@@ -313,7 +337,9 @@
                             <td>(225) 555-0118</td>
                             <td>jane@microsoft.com</td>
                             <td>United States</td>
-                            <td>Active</td>
+                            <td class="Inactive">
+                                <p>Active</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Floyd Miles</td>
@@ -321,7 +347,9 @@
                             <td>(205) 555-0100</td>
                             <td>floyd@yahoo.com</td>
                             <td>Kiribati</td>
-                            <td>Inactive</td>
+                            <td class="Active">
+                                <p>Inactive</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Jane Cooper</td>
@@ -329,7 +357,9 @@
                             <td>(225) 555-0118</td>
                             <td>jane@microsoft.com</td>
                             <td>United States</td>
-                            <td>Active</td>
+                            <td class="Active">
+                                <p>Active</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Floyd Miles</td>
@@ -337,7 +367,9 @@
                             <td>(205) 555-0100</td>
                             <td>floyd@yahoo.com</td>
                             <td>Kiribati</td>
-                            <td>Inactive</td>
+                            <td class="Active">
+                                <p>Inactive</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Jane Cooper</td>
@@ -345,7 +377,9 @@
                             <td>(225) 555-0118</td>
                             <td>jane@microsoft.com</td>
                             <td>United States</td>
-                            <td>Active</td>
+                            <td class="Active">
+                                <p>Active</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>Floyd Miles</td>
@@ -353,24 +387,38 @@
                             <td>(205) 555-0100</td>
                             <td>floyd@yahoo.com</td>
                             <td>Kiribati</td>
-                            <td>Inactive</td>
+                            <td class="Inactive">
+                                <p>Inactive</p>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
 
-                <div class="all-customers_pagination">
+                <div class="all-customers__pagination">
                     <p>Showing data 1 to 8 of 256K entries</p>
 
                     <div>
-                        <ul class="pagination">
-                            <li><a href="#">влево</a></li>
-                            <li><a href="#">1</a></li>
+                        <ul class="pagination list">
+                            <li>
+                                <a href="#">
+                                    <svg class="all-customers__icon" width="8" height="12">
+                                        <use href="./images/symbol-defs.svg#icon-left"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a class="pagination__link--current" href="#">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
                             <li><a href="#">4</a></li>
                             <li class="ellipsis">...</li>
                             <li><a href="#">40</a></li>
-                            <li><a href="#">вправо</a></li>
+                            <li>
+                                <a href="#">
+                                    <svg class="all-customers__icon" width="8" height="12">
+                                        <use href="./images/symbol-defs.svg#icon-right"></use>
+                                    </svg>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
